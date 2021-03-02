@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Poochswadge</title>
+
+    <meta name="viewport" content="width=device-width,
+    initial-scales=1, maximum-scale=1, minimum-scale=1"/>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet"> 
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet"> 
+
+    <link rel="stylesheet" type="text/css" href="default.css">
+
+    <link id="theme-style" rel="stylesheet" type="text/css" href="">
+
+    <style>
+        #btnScrollToTop{
+            position: fixed;
+            right: 10px;
+            bottom: 10px;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: #e62739;
+            box-shadow: 0 0 10px rgba(0, 0, 0.25);
+            color: white;
+            border: none;
+            outline: none;
+            cursor: pointer;
+        }
+
+        #btnScrollToTop:active{
+            background: #460a10;
+        }
+    </style>
+</head>
+<body>
+    
+    <button id="btnScrollToTop">
+        <i class="material-icons">arrow_upward</i>
+    </button>
+    
+    <section class="s1">
+        <div class="main-container">
+            <div class="greeting-wrapper">
+                <h1><a href="index.html">Hello, I'm Poochswadge</a></h1>
+            </div>
+
+            <div class="intro-wrapper">
+                <div class="nav-wrapper">
+                    <div class="dots-wrapper">
+                        <div id="dot-1" class="browser-dot"></div>
+                        <div id="dot-2" class="browser-dot"></div>
+                        <div id="dot-3" class="browser-dot"></div>
+                    </div>
+                    <ul id="navigation">
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="left-column">
+                    <img id="profile_pic" src="images/poochswadge.jpg">
+                    <h5 style="text-align: center;line-height: 0;">Personalize Theme</h5>
+                    <div id="theme-options-wrapper">
+                        <div data-mode="light" id="light-mode" class="theme-dot"></div>
+                        <div data-mode="blue" id="blue-mode" class="theme-dot"></div>
+                        <div data-mode="green" id="green-mode" class="theme-dot"></div>
+                        <div data-mode="purple" id="purple-mode" class="theme-dot"></div>
+                    </div>
+
+                    <p id="settings-note">*Theme setting will be saved for<br>your next visit</p>
+                </div>
+
+                <div class="right-column">
+                    <div id="preview-shadow">
+                        <div id="preview">
+                            <h3>Random Words</h3>
+                            <p>I'm just a guy... Sometimes I wonder if the world we're living in is just virtual...
+                                Maybe we are characters and Gods are playing with us?... No clues.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="s2">
+        <div class="main-container">
+            <div class="about-wrapper">
+                <div class="about-section">
+                    <h4>More about me</h4>
+                    <p>
+                        Just a guy who is interested in coding, 
+                        but mostly plays video games &#128512
+                    </p>
+                    <p>
+                        Games are my biggest motivation on life.
+                        I've learnt a lot just by playing video games.
+                    </p>
+                    <hr>
+
+                    <h4>MAIN SKILLS</h4>
+
+                    <p>A software engineering student with primary focus on Java.
+                        Also interested in React + Python: <a target="_blank" href="resume.pdf">Download Resume</a>
+                    </p>
+
+                    <div id="skills">
+                        <ul>
+                            <li>Java</li>
+                            <li>Python</li>
+                            <li>React</li>
+                            <li>C/C++</li>
+                            <li>MySQL</li>
+                        </ul>
+
+                        <ul>
+                            <li>Google Maps API</li>
+                            <li>AWS</li>
+                            <li>Heroku</li>
+                            <li>HTML/CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="social-links">
+                    <img id="social_img" src="images/facebook.jpg">
+                    <h3>Find me on social media</h3>
+                    <a target="_blank" href="https://www.facebook.com/profile.php?id=100034588716391&sk=about">Facebook: Lê Đức Long</a>
+                    <br>
+                    <a target="_blank" href="https://twitter.com/esemanteiV">Twitter: esemanteiV</a>
+                    <br>
+                    <a target="_blank" href="https://www.instagram.com/leducllong/">Instagram: leducllong</a>
+                    <br>
+                    <a target="_blank" href="https://github.com/lelongrvp">Github: lelongrvp</a>
+                    <br>
+                    <a target="_blank" href="https://www.linkedin.com/in/le-duc-long-7863931a4/">LinkedIn: Le Duc Long</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="s1">
+        <div class="main-container">
+            <h3 style="text-align: center;">Some of my past projects</h3>
+            <div class="post-wrapper">
+                <div class="post">
+                    <img class="thumbnail" src="images/amazon.jpg">
+                    <div class="post-preview">
+                        <h6 class="post-title">Amazon Clone</h6>
+                        <p class="post-intro">An e-commerce website inspired by Amazon
+                            for educational purposes.
+                        </p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+                <div class="post">
+                    <img class="thumbnail" src="images/covid.jpg">
+                    <div class="post-preview">
+                        <h6 class="post-title">Covid-19 Tracker</h6>
+                        <p class="post-intro">A website designed for tracking Covid-19-related
+                            information globally.
+                        </p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+                <div class="post">
+                    <img class="thumbnail" src="images/face recognition.jpeg">
+                    <div class="post-preview">
+                        <h6 class="post-title">Face Detection</h6>
+                        <p class="post-intro">A Python based face detection app which 
+                            detects the face appear in the camera.
+                        </p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+                <div class="post">
+                    <img class="thumbnail" src="images/food.jpg">
+                    <div class="post-preview">
+                        <h6 class="post-title">Food Ordering App</h6>
+                        <p class="post-intro">A responsive mobile app using Flutter which can order food 
+                            online.
+                        </p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+                <div class="post">
+                    <img class="thumbnail" src="images/hospital.png">
+                    <div class="post-preview">
+                        <h6 class="post-title">Hanu Hospital</h6>
+                        <p class="post-intro">A patient management system website for educational purposes
+                        </p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+                <div class="post">
+                    <img class="thumbnail" src="images/blog.png">
+                    <div class="post-preview">
+                        <h6 class="post-title">My Blog</h6>
+                        <p class="post-intro">This is where I store all my articles, project guides and my personal 
+                            stuff that I want to write about.
+                        </p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="s2">
+        <div class="main-container">
+            <h3 style="text-align: center;">Get In Touch</h3>
+            <form id="contact-form">
+                <label>Name</label>
+                <input type="text" class="input-field" name="name">
+
+                <label>Subject</label>
+                <input type="text" class="input-field" name="subject">
+
+                <label>E-mail</label>
+                <input type="text" class="input-field" name="email">
+
+                <label>Message</label>
+                <textarea class="input-field" name="message"></textarea>
+                
+                <input id="submit-btn" type="submit" value="Send">
+            </form>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="script.js"></script>
+
+    <script>
+        const btnScrollToTop = document.querySelector("#btnScrollToTop");
+
+        btnScrollToTop.addEventListener('click', function(){
+           window.scrollTo({
+              top: 0,
+              left: 0,
+              behavior: 'smooth'
+           });
+        });
+    </script>
+
+</body>
+</html>
